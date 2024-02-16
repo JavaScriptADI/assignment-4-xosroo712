@@ -12,7 +12,7 @@ function isEven(number) {
     return isEven(number - 2);
   }
 }
-console.log(isEven(50)); // Output: true (50 is even)
-console.log(isEven(75)); // Output: false (75 is odd)
-console.log(isEven(-1)); // Output: false (handled negative number)
+console.log(isEven(50)); 
+console.log(isEven(75));
+console.log(isEven(-1)); 
 
